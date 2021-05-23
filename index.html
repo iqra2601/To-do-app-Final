@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- MY css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final project</title>
+</head>
+
+<body>
+    
+  
+    <!-- This is  the Title -->
+  
+    <div class="container" id="titleSec">
+        <div class="col-sm-6 col-12">
+    <p>
+        What is the task for today?
+        <span>
+         To Do App
+        </span>
+        &mdash; For the disorganised &mdash;
+      </p>
+      </div>
+    </div>
+
+
+
+    <!-- My form -->
+
+    <div class="container" id="formSection">
+        <div class="row">
+            <!-- Form is going here  -->
+                 <div class="col-12">
+            <form>
+                    <div class="form-group">
+                      <label for="nameInput">Name</label>
+                      <input type="text" class="form-control" id="nameInput" placeholder="Name of person allocating task" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="assignedInput">Assigned To</label>
+                      <input type="text" class="form-control" id="assignedInput" placeholder="Enter name of task owner" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="descriptionInput">Description</label>
+                        <input type="text" class="form-control" id="descriptionInput" placeholder="Enter the description of task" required>
+                    </div>
+                        <div class="form-group">
+                        <label for="dateInput">Due Date</label>
+                        <input type="date" class="form-control" id="dateInput" placeholder="Due date">
+                        </div>
+                    <div class="form-group">
+                        <label for="statusInput">Status</label>
+                        <select class="form-control" id="statusInput">
+                          <option value="todo">To-do</option>
+                          <option value="review">Review</option>
+                          <option value="inprogress">In progress</option>
+                          <option value="done">Done</option>
+                        </select>
+                    </div>
+                            
+                    <button type="button" class="btn btn-primary col-lg-6" id="addbutton">Add task</button>
+                </div>
+         </div>
+     </div>
+            </form>
+
+            
+            <!-- card summaries will be going here -->  
+            <!-- <div class="container-fluid row justify-content-center" style="padding-bottom: 2rem; padding-top: 4rem;">
+            
+                <div class="col-md-4 uu">
+                    <h2 style="padding-bottom: 2rem ; text-align: center;">Summary List</h2>
+                    <div class="list-group" id="cardSummary">
+
+                    </div>
+                </div>
+            </div> -->
+            <!-- <h1>Task Summaries</h1>  
+            <div class="list-group col-12 col-sm-6 col-md-4 col-lg-3" id="cardSummary">   
+            </div> -->
+        <!-- This row is where the task cards will populate  -->
+
+
+         
+        <h2 style="padding:5rem; text-align: center;">Task List</h2>
+        <div class="row" id="myTaskCards">
+ 
+            </div>
+       
+            
+
+
+    <!-- MY JS -->
+    <script src="app.js"></script>
+
+    <!-- JS  -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>

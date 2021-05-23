@@ -1,0 +1,182 @@
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 50%, #ffffff 100%);  
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    
+      
+}
+
+
+html {
+    font-family: Orphan, Futura Light, Futura, sans-serif;
+    min-height:100%;
+}
+
+/* #cardSummary{
+margin-top:50px;
+position:absolute;
+left:500px} */
+
+                        /* STYLING FOR THE FORM  */
+    #formSection {
+    background:rgb(156, 154, 154);
+    -webkit-box-shadow: 0px 0px 20px 1px rgba(11, 114, 247, 0.8);
+     -moz-box-shadow: 0px 0px 20px 1px rgba(29, 64, 188, 0.8);
+     box-shadow: 0px 0px 20px 1px rgba(32, 12, 255, 0.8);
+     max-width: 500px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  border-radius: 10px; 
+  position: relative;
+  top:15rem;
+      } 
+
+
+      /* STYLING FOR THE ADD BUTTON */
+    
+      #addbutton{
+        position: relative;
+        display: inline-block;
+        padding: 25px 30px;
+        margin: 40px 0;
+        color: #03e9f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        margin-right: 20px;
+       
+    }
+    #addbutton:hover{
+        background: #03e9f4;
+        color: #050801;
+        box-shadow: 0 0 5px #03e9f4,
+                    0 0 25px #03e9f4,
+                    0 0 50px #03e9f4,
+                    0 0 200px #03e9f4;
+         -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    }
+    a:nth-child(1){
+        filter: hue-rotate(270deg);
+    }
+    
+    #addbutton span{
+        position: absolute;
+        display: block;
+    }
+    #addbutton span:nth-child(1){
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg,transparent,#03e9f4);
+        animation: animate1 1s linear infinite;
+    } 
+                                /* END ADD BUTTON STYLING */
+    #myTaskCards {
+        margin-top: 30px;
+        font-weight:bold;
+        text-align:center;
+        color:blue;
+        padding:7rem;
+      }
+                                        
+
+
+
+
+                                                /* TITLE STYLING */
+      
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translatey(0px);
+        }
+        25%,
+        75% {
+          transform: translateY(-16px);
+        }
+        50% {
+          transform: translatey(-20px);
+        }
+      }
+
+      .logocontainer {
+        right:-1000px;
+        top:-400px;
+      }
+
+
+                                 /* STYLING THE TITLE */
+      body {
+        font: 400 1em/1.5 "Neuton";
+        text-align: center;
+        margin: 0;
+      }
+      
+      p {
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+        display: inline-block;
+        border: 4px double rgba(0, 89, 255, 0.25);
+        border-width: 4px 0;
+        padding: 1.5em 0em;
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        width: 40em;
+        margin: 0 0 0 -20em;
+      }
+      
+        span {
+          font: 700 4em/1 "Oswald", sans-serif;
+          letter-spacing: 0;
+          padding: 0.25em 0 0.325em;
+          display: block;
+          margin: 0 auto;
+          text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+      
+          /* Clip Background Image */
+      
+          background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+          -webkit-background-clip: text;
+          background-clip: text;
+        
+          /* Animate Background Image */
+      
+          -webkit-text-fill-color: transparent;
+          -webkit-animation: aitf 80s linear infinite;
+      
+          /* Activate hardware acceleration for smoother animations */
+      
+          -webkit-transform: translate3d(0, 0, 0);
+          -webkit-backface-visibility: hidden;
+        }
+      
+      
+      /* Animate Background Image */
+      
+      @-webkit-keyframes aitf {
+        0% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 100% 50%;
+        }
+      }
+      
+
+      #titleSec{
+          position:relative;
+          margin-left:auto;
+          margin-right:auto;
+          width:8rem;
+          /* align-content: center;
+          text-align: center; */
+      }
+
+     
